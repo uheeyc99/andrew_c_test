@@ -1,5 +1,6 @@
 CC=gcc
-client: server
+all:	server
+server:
 	gcc -o server server.c
 clean:
 	rm -rf server
